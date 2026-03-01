@@ -15,16 +15,16 @@ class SmartSkills < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/armedev/smart-skills/releases/download/v#{VERSION}/smart-skills-v#{VERSION}-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/armedev/smart-skills/releases/download/v#{VERSION}/smart-skills-aarch64-apple-darwin.tar.gz"
       sha256 SHA256_AARCH64_DARWIN
     else
-      url "https://github.com/armedev/smart-skills/releases/download/v#{VERSION}/smart-skills-v#{VERSION}-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/armedev/smart-skills/releases/download/v#{VERSION}/smart-skills-x86_64-apple-darwin.tar.gz"
       sha256 SHA256_X86_64_DARWIN
     end
   end
 
   on_linux do
-    url "https://github.com/armedev/smart-skills/releases/download/v#{VERSION}/smart-skills-v#{VERSION}-x86_64-unknown-linux-gnu.tar.gz"
+    url "https://github.com/armedev/smart-skills/releases/download/v#{VERSION}/smart-skills-x86_64-unknown-linux-gnu.tar.gz"
     sha256 SHA256_X86_64_LINUX
   end
 
