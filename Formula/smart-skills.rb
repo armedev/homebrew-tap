@@ -4,7 +4,7 @@ class SmartSkills < Formula
   license "MIT"
 
   # Version
-  VERSION = "0.1.3"
+  VERSION = "0.1.4"
 
   # SHA256 checksums
   SHA256_AARCH64_DARWIN = "004cfb645959d9a91d56ce2b6f99b9acb7b0fbe1e6bdc0d61909c64b9a3f5c65"
